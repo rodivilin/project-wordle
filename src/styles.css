@@ -159,6 +159,10 @@ h1 {
   border-radius: 4px;
   padding: 8px 16px;
   outline-offset: 4px;
+
+  &:disabled {
+    background: var(--color-gray-700);
+  }
 }
 
 .banner {
